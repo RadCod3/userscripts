@@ -23,6 +23,14 @@ Userscripts that improve online-banking interfaces. Each script is narrowly scop
 2. Open [`hnb-modern-otp.user.js`](hnb-modern-otp.user.js) in the userscript manager and install it.
 3. Log in to HNB Online Banking as usual; the enhanced OTP view appears when HNB displays its login OTP modal.
 
+## Commercial Bank Digital
+
+### Normal password and OTP fields
+
+[`combank-normal-password.user.js`](combank-normal-password.user.js) fixes the visible password fields on ComBank Digital's login and change-password views, plus the login OTP field. It restores browser-native paste, typing, and password-manager hints while leaving the site's Angular model and submit flow intact.
+
+It runs only on `combankdigital.com`, ignores the site's hidden decoy inputs, and does not send credentials anywhere.
+
 ## Future scripts
 
 Add a subsection for each bank or banking workflow here, with its script, screenshot, features, and installation notes.
